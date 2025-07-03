@@ -74,7 +74,7 @@ router.get('/poruci-apollo-t-12k', (req, res) => {
 });
 
 //------------Updejtuj porudzbinu u bazu podataka--------
-router.post('/poruci-gree-pular-12k', async(req, res) => {
+router.post('/post-poruci-gree-pular-12k', async(req, res) => {
     try {
         const novaPorudzbina = new narudzbine({
             ime: req.body.ime,
@@ -93,7 +93,7 @@ router.post('/poruci-gree-pular-12k', async(req, res) => {
     }
 });
 
-router.post('/poruci-amber-pro-12k', async(req, res) => {
+router.post('/post-poruci-amber-pro-12k', async(req, res) => {
     try {
         const novaPorudzbina = new narudzbine({
             ime: req.body.ime,
@@ -112,7 +112,7 @@ router.post('/poruci-amber-pro-12k', async(req, res) => {
     }
 });
 
-router.post('/poruci-bergen-apollo-t-12k', async(req, res) => {
+router.post('/post-poruci-bergen-apollo-t-12k', async(req, res) => {
     try {
         const novaPorudzbina = new narudzbine({
             ime: req.body.ime,
@@ -131,7 +131,7 @@ router.post('/poruci-bergen-apollo-t-12k', async(req, res) => {
     }
 });
 
-router.post('/poruci-gree-clivia-ai-12k-black', async(req, res) => {
+router.post('/post-poruci-gree-clivia-ai-12k-black', async(req, res) => {
     try {
         const novaPorudzbina = new narudzbine({
             ime: req.body.ime,
@@ -150,7 +150,7 @@ router.post('/poruci-gree-clivia-ai-12k-black', async(req, res) => {
     }
 });
 
-router.post('/poruci-gree-clivia-ai-12k', async(req, res) => {
+router.post('/post-poruci-gree-clivia-ai-12k', async(req, res) => {
     try {
         const novaPorudzbina = new narudzbine({
             ime: req.body.ime,
@@ -169,7 +169,7 @@ router.post('/poruci-gree-clivia-ai-12k', async(req, res) => {
     }
 });
 
-router.post('/poruci-kron-smart-12k', async(req, res) => {
+router.post('/post-poruci-kron-smart-12k', async(req, res) => {
     try {
         const novaPorudzbina = new narudzbine({
             ime: req.body.ime,
@@ -188,7 +188,7 @@ router.post('/poruci-kron-smart-12k', async(req, res) => {
     }
 });
 
-router.post('/poruci-bergen-kron-smart-12k-black', async(req, res) => {
+router.post('/post-poruci-bergen-kron-smart-12k-black', async(req, res) => {
     try {
         const novaPorudzbina = new narudzbine({
             ime: req.body.ime,
