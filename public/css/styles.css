@@ -441,15 +441,12 @@ footer{
     .nav__socials {
         margin-top: -20px;
     }
-
     .navvv {
         margin-left: 0px;
     }
-
     .header__container h1 {
         font-size: 2rem;
     }
-
     .nav__logo {
         display: flex;
         align-items: center;
@@ -458,19 +455,15 @@ footer{
         font-weight: 700;
         color: rgb(27, 27, 27);
     }
-
     .nav__contact {
         margin-top: -10px;
     }
-
     .nav__contact__card {
         margin-top: -10px;
     }
-
     .navvv {
         border-bottom: 1px solid var(--text-light);
     }
-
     nav {
         margin-top: -15px;
     }
@@ -483,6 +476,14 @@ footer{
 
     .nav__contact__card {
         gap: 1rem;
+    }
+
+    .poruci-product-overview {
+        line-height: 0.5;
+        padding: 0px;
+    }
+    .stavka {
+        text-align: start;
     }
 }
 
@@ -510,6 +511,13 @@ footer{
     .header__image {
         grid-area: 1/2/2/3
     }
+    .poruci-product-overview {
+        line-height: 0.5;
+        padding: 0px;
+    }
+    .stavka {
+        text-align: start;
+    }
     
 }
 
@@ -520,6 +528,13 @@ footer{
 
     .header__container button {
         width: fit-content;
+    }
+    .poruci-product-overview {
+        line-height: 0.5;
+        padding: 0px;
+    }
+    .stavka {
+        text-align: start;
     }
 }
 
@@ -852,19 +867,18 @@ img{
 }
 
 /* Poruci */
+.porucccccci {
+    background-color: #f7f7f7;
+}
 .ppppoooorudzbina {
     width: 100%;
     margin-left: 25%;
     padding: 30px;
 }
-.poruciiii-formmmaaa {
-    margin-bottom: 3%;
-    margin-top: 5%;
-}
 .poruci-naslov {
     text-align: center;
     margin-bottom: 5%;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     padding: 0px;
     padding-left: 19px;
     padding-right: 19px;
@@ -873,11 +887,10 @@ img{
 .poruci-product-overview {
     text-align: center;
     margin-bottom: 5%;
-    background-color: #f4f4f4;
-    padding: 10px;
-    padding-left: 19px;
-    padding-right: 19px;
-    padding-top: 22px;
+    background-color: #ffffff;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
 }
 .poruci-product-overview ul {
     text-align: start;
@@ -910,14 +923,16 @@ img{
     justify-content: center;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 3%;
 }
 .porukkkka {
     font-size: large;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     padding: 15px;
+    text-align: center;
 }
 .pppooorrruuukkkaaa {
-    margin-top: 5%;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -944,7 +959,6 @@ img{
     margin-bottom: 5%;
     padding: 5px 15px;
 }
-
 .izloguj-se {
     background-color: rgb(255, 0, 0);
     color: white;
@@ -957,7 +971,6 @@ img{
         grid-gap: 1.5rem;
     }
     .card-wrapperrr{
-        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -970,6 +983,13 @@ img{
     .product-content{
         padding-top: 0;
     }
+}
+
+.pozovite_za_d_p {
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+    background-image: ;
 }
 
 @media (width < 540px) {
@@ -1085,5 +1105,16 @@ img{
     .product-detail h2 {
         margin-top: 7%;
         padding-bottom: 0px;
+    }
+    .uracunato_u_cenu_lista {
+        line-height: 0.3;
+    }
+    .poruci-product-overview {
+        padding-top: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .stavka {
+        text-align: start;
     }
 }
