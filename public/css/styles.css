@@ -985,11 +985,40 @@ img{
     }
 }
 
-.pozovite_za_d_p {
-    position: absolute;
-    bottom: 70px;
-    left: 70px;
-    background-image: ;
+#prva_slika {
+    height: 300px;
+    object-fit: cover;
+}
+
+.pozovi_za_vise_container {
+    display: flex;
+    justify-content: center;
+}
+.pozovite_za_vise {
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: white;
+    align-self: center;
+}
+.za_dodatna_txt {
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-wrap: nowrap;
+}
+.button_pozziv {
+    margin-top: -4px;
+    border: none;
+    text-wrap: nowrap;
+    padding-top: 4%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 4%;
 }
 
 @media (width < 540px) {
