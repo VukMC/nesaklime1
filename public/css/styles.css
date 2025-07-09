@@ -985,11 +985,6 @@ img{
     }
 }
 
-#prva_slika {
-    height: 500px;
-    object-fit: cover;
-}
-
 .pozovi_za_vise_container {
     display: flex;
     justify-content: center;
