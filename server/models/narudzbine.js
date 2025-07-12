@@ -14,18 +14,6 @@ const PostSchema = new Schema({
         type: String,
         required: true
     },
-    grad: {
-        type: String,
-        required: false
-    },
-    mesto: {
-        type: String,
-        required: true
-    },
-    ulica: {
-        type: String,
-        required: false
-    },
     klima: {
         type: String,
         required: false

@@ -1016,7 +1016,22 @@ img{
     padding-bottom: 4%;
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.pogledaj-dugme {
+    width: 33%;
+}
+
 @media (width < 540px) {
+    .filter-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .____nav____container {
         display: flex;
         flex-direction: column;

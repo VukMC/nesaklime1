@@ -66,3 +66,14 @@ function e(i) {
 for(var i = 0; i < number; i++) {
     e(i);
 }
+
+//----------------------------------------------------Filteri-----------------------------------------------------------
+const number_of_gree = document.querySelectorAll(".brend----gree").length;
+const number_of_bergen = document.querySelectorAll(".brend----bergen").length;
+const number_of_mitz = document.querySelectorAll(".brend----mitzu").length;
+
+document.querySelector(".gree-checkbox").addEventListener("click", function() {
+    for(var iter = 0; iter < number_of_gree; iter++) {
+        
+    }
+});
