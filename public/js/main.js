@@ -68,12 +68,24 @@ for(var i = 0; i < number; i++) {
 }
 
 //----------------------------------------------------Filteri-----------------------------------------------------------
-const number_of_gree = document.querySelectorAll(".brend----gree").length;
-const number_of_bergen = document.querySelectorAll(".brend----bergen").length;
-const number_of_mitz = document.querySelectorAll(".brend----mitzu").length;
+// const number_of_gree = document.querySelectorAll(".brend----gree").length;
+// const number_of_bergen = document.querySelectorAll(".brend----bergen").length;
+// const number_of_mitz = document.querySelectorAll(".brend----mitzu").length;
 
-document.querySelector(".gree-checkbox").addEventListener("click", function() {
-    for(var iter = 0; iter < number_of_gree; iter++) {
+// document.querySelector(".gree-checkbox").addEventListener("click", function() {
+//     for(var iter = 0; iter < number_of_gree; iter++) {
         
-    }
-});
+//     }
+// });
+
+//-----------------------------------------------------hodajuci-text----------------------------------------------------
+var style = document.createElement('style');
+var position = 'right';
+
+style.innerHTML = `
+@keyframes my-animation{
+    0%{ ${position}: -${document.querySelector('.text').offsetWidth + 10}px;}
+    100%{${position}: 100%;}
+}`;
+
+document.head.append(style);

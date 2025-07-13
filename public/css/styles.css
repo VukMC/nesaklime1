@@ -1027,6 +1027,40 @@ img{
     text-wrap: nowrap;
 }
 
+.montaza-cena-text {
+    color: white;
+    font-family: "raleway", sans-serif;
+    font-weight: 300;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.container-montaza-cena{ 
+    display: flex;
+    align-items: center;
+    background-color: #00012e;
+}
+
+.usluzna-montaza-svih {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    gap: 0px
+}
+.usluzna-montaza-text {
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.usluzna-montaza-broj {
+    margin-top: -5px;
+    align-self: center;
+}
+
+.product-detail > p {
+    font-size: large;
+}
+
 @media (width < 540px) {
     .filter-container {
         display: flex;
