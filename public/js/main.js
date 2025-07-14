@@ -73,18 +73,24 @@ for(var i = 0; i < number; i++) {
 // const number_of_mitz = document.querySelectorAll(".brend----mitzu").length;
 
 // document.querySelector(".gree-checkbox").addEventListener("click", function() {
-//     for(var iter = 0; iter < number_of_gree; iter++) {
-        
+//     for(var iter = 0; iter < number_of_bergen; iter++) {
+//         document.querySelectorAll(".brend----bergen")[iter].classList.add('hide');
 //     }
 // });
 
+// <select class="form-select" aria-label="Default select example">
+// <option selected>Filteri</option>
+// <option class="gree-checkbox" value="1">Gree</option>
+// <option class="bergen-checkbox" value="2">Bergen</option>
+// <option class="mitsubishi-checkbox" value="3">Mitsubishi</option>
+// </select>
 //-----------------------------------------------------hodajuci-text----------------------------------------------------
 var style = document.createElement('style');
 var position = 'right';
 
 style.innerHTML = `
 @keyframes my-animation{
-    0%{ ${position}: -${document.querySelector('.text').offsetWidth + 10}px;}
+    0%{ ${position}: -${document.querySelector('.montaza-hodajuca-text').offsetWidth + 10}px;}
     100%{${position}: 100%;}
 }`;
 

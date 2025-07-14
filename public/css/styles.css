@@ -107,7 +107,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     gap: 2rem 1rem;
-    border-bottom: 1px solid var(--text-light);
 }
 
 .navvv {
@@ -1034,23 +1033,30 @@ img{
     padding-top: 3px;
     padding-bottom: 3px;
 }
-.container-montaza-cena{ 
-    display: flex;
-    align-items: center;
-    background-color: #00012e;
-}
 
 .usluzna-montaza-svih {
     margin-top: -20px;
     display: flex;
     flex-direction: column;
     margin-bottom: 60px;
-    gap: 0px
+    gap: 0px;
+    background-color: rgb(242, 242, 242);
+}
+.usluzna-montaza-content1 {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.usluzna-montaza-content2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
 }
 .usluzna-montaza-text {
     font-family: "raleway", sans-serif;
     font-size: 20px;
     font-weight: 500;
+    text-align: center;
 }
 .usluzna-montaza-broj {
     margin-top: -5px;
@@ -1059,6 +1065,31 @@ img{
 
 .product-detail > p {
     font-size: large;
+}
+
+.montaza-hodajuca-group {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    height: 30px;
+    background-color: rgb(1, 0, 39);
+}
+.montaza-hodajuca-text {
+    position: absolute;
+    margin: 5px 0;
+    padding: 0;
+    width: max-content;
+    animation: my-animation 14s linear infinite;
+    font-family: "raleway", sans-serif;
+    font-weight: 300;
+}
+
+.form-select {
+    width: 40%;
+}
+
+.hide {
+    display: none;
 }
 
 @media (width < 540px) {
