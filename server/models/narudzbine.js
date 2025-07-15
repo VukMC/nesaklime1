@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const PostSchema = new Schema({
     ime: {
         type: String,
-        required: true
+        required: false
     },
     prezime: {
         type: String,
@@ -13,6 +13,22 @@ const PostSchema = new Schema({
     telefon: {
         type: String,
         required: true
+    },
+    mesto: {
+        type: String,
+        required: false
+    },
+    ulica: {
+        type: String,
+        required: false
+    },
+    vreme: {
+        type: String,
+        required: false
+    },
+    napomene: {
+        type: String,
+        required: false
     },
     klima: {
         type: String,

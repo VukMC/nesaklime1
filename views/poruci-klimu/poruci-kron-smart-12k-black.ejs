@@ -18,18 +18,46 @@
             </div>
         </div>
 
-        <form class="poruciiii-formaaaa" action="/post-poruci-bergen-kron-smart-12k-black" method="POST">
-            <label for="ime"><b>Ime:</b></label>
-            <input class="placeholderrrrrrr p-2" type="text" placeholder="Obavezno polje" name="ime" required>
-
-            <label for="prezime"><b>Prezime:</b></label>
-            <input class="placeholderrrrrrr p-2" type="text" name="prezime">
-
-            <label for="telefon"><b>Telefon:</b></label>
-            <input class="placeholderrrrrrr p-2" type="text" placeholder="Obavezno polje" name="telefon" required>
-
+        <form class="row g-3 poruciiii-formaaaa" action="/post-poruci-bergen-kron-smart-12k-black" method="POST">
+            <div class="col-md-6">
+              <label for="ime" class="form-label">Ime: </label>
+              <input type="text" class="form-control" name="ime" id="ime">
+            </div>
+            <div class="col-md-6">
+              <label for="prezime" class="form-label">Prezime: </label>
+              <input type="text" class="form-control" name="prezime" id="prezime">
+            </div>
+            <div class="col-12">
+              <label for="telefon" class="form-label">Telefon: </label>
+              <input type="text" class="form-control" name="telefon" id="telefon" placeholder="Obavezno polje" required>
+            </div>
+            <div class="col-12">
+              <label for="mesto" class="form-label">Mesto: </label>
+              <input type="text" class="form-control" name="mesto" id="mesto">
+            </div>
+            <div class="col-md-6">
+              <label for="ulica" class="form-label">Ulica: </label>
+              <input type="text" name="ulica" class="form-control" id="ulica">
+            </div>
+            <div class="col-md-4">
+              <label for="vreme" class="form-label">Vreme u koje da Vas kontaktiramo: </label>
+              <select id="vreme" name="vreme" class="form-select">
+                <option selected>Bilo kada </option>
+                <option>09:00 - 11:00</option>
+                <option>11:00 - 13:00</option>
+                <option>13:00 - 15:00</option>
+                <option>15:00 - 17:00</option>
+                <option>17:00 - 19:00</option>
+                <option>19:00 - 21:00</option>
+              </select>
+            </div>
+            <div class="mb-3">
+                <label for="napomene" class="form-label">Dodatne napomene: </label>
+                <textarea class="form-control" name="napomene" id="napomene" rows="3"></textarea>
+            </div>
+            
             <input type="submit" value="Naruči" class="poruci-btnnnnnnnnnnnnnnnnnnn border rounded-3">
-        </form>
+          </form>
 
         <div class="pppooorrruuukkkaaa">
             <p class="porukkkka rounded-4">

@@ -141,6 +141,10 @@ router.post('/post-poruci-gree-pular-12k', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Gree Pular 12k"
         });
 
@@ -157,6 +161,10 @@ router.post('/post-poruci-amber-pro-12k', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Gree Amber Pro 12k"
         });
 
@@ -173,6 +181,10 @@ router.post('/post-poruci-bergen-apollo-t-12k', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Bergen Apollo T 12k"
         });
 
@@ -189,6 +201,10 @@ router.post('/post-poruci-gree-clivia-ai-12k-black', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Gree Clivia Ai 12k Black"
         });
 
@@ -205,6 +221,10 @@ router.post('/post-poruci-gree-clivia-ai-12k', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Gree Clivia Ai 12k"
         });
 
@@ -221,6 +241,10 @@ router.post('/post-poruci-kron-smart-12k', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Bergen Kron Smart 12k"
         });
 
@@ -237,6 +261,10 @@ router.post('/post-poruci-bergen-kron-smart-12k-black', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Bergen Kron Smart 12k Black"
         });
 
@@ -253,6 +281,10 @@ router.post('/post-poruci-mitsubishi-hr-smart-12k', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Mitsubishi HR Smart 12k"
         });
 
@@ -269,6 +301,10 @@ router.post('/post-poruci-mitsubishi-hr-smart-18k', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Mitsubishi HR Smart 18k"
         });
 
@@ -285,6 +321,10 @@ router.post('/post-poruci-mitsubishi-hr-smart-24k', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Mitsubishi HR Smart 24k"
         });
 
@@ -301,6 +341,10 @@ router.post('/post-poruci-mitsubishi-bt-12k', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Mitsubishi BT Smart 12k"
         });
 
@@ -317,6 +361,10 @@ router.post('/post-poruci-mitsubishi-bt-18k', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Mitsubishi BT Smart 18k"
         });
 
@@ -333,6 +381,10 @@ router.post('/post-poruci-mitsubishi-ln-12k', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Mitsubishi LN Smart 12k"
         });
 
@@ -349,6 +401,10 @@ router.post('/post-poruci-mitsubishi-ln-12k-red', async(req, res) => {
             ime: req.body.ime,
             prezime: req.body.prezime,
             telefon: req.body.telefon,
+            mesto: req.body.mesto,
+            ulica: req.body.ulica,
+            vreme: req.body.vreme,
+            napomene: req.body.napomene,
             klima: "Mitsubishi LN Smart 12k Red"
         });
 
