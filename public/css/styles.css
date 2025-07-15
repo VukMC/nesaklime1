@@ -895,9 +895,6 @@ img{
     text-align: start;
 }
 .poruciiii-formaaaa {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     padding-left: 10%;
     padding-right: 10%;
     align-items: center;
