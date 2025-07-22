@@ -1047,7 +1047,8 @@ img{
 .usluzna-montaza-content2 {
     padding-left: 5px;
     padding-right: 5px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .usluzna-montaza-text {
     font-family: "raleway", sans-serif;
@@ -1057,7 +1058,10 @@ img{
 }
 .usluzna-montaza-broj {
     margin-top: -5px;
+    margin-bottom: 5px;
     align-self: center;
+    color: rgb(243, 243, 243);
+    background-color: #001324;
 }
 
 .product-detail > p {
