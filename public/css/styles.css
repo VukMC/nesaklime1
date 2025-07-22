@@ -1224,3 +1224,15 @@ img{
         text-align: start;
     }
 }
+
+a svg {
+    pointer-events: none;
+}
+
+a p {
+    pointer-events: none;
+}
+
+a h4 {
+    pointer-events: none;
+}
